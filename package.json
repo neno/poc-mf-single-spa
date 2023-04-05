@@ -1,0 +1,29 @@
+{
+  "name": "volt",
+  "version": "1.0.0",
+  "description": "TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "concurrently \"wsrun --parallel start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@ssh.dev.azure.com:v3/pwc-de-digital-factory-pa/Digitally%20Enabled%20Audit/volt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "wsrun": "^5.2.4"
+  },
+  "engines": {
+    "node": "16.20.0"
+  }
+}
